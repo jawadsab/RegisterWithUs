@@ -4,4 +4,4 @@
 >  
 > classes are added accordingly.
 
-<img src="images/final.png" width="300px">
+<img src="images/final.png">
