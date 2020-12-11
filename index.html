@@ -8,13 +8,35 @@
 </head>
 <body>
 
-    <!-- Footer Section -->
-    <section class="footer">
-       <div>
-        <span>Copyright 2020</span>
-        <span>All Rights Reserved</span>
-        <span>JawadVajeeh</span>
-       </div>
-    </section>
+    <!-- Form -->
+    <div id="container">
+        <h3>Register With Us</h3>
+        <form id="form" class="form-container">
+            <div class="input-block">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username">
+                <small>Error Message</small>
+            </div>
+            <div class="input-block">
+                <label for="email">Email</label>
+                <input id="email" placeholder="Enter email">
+                <small>Error Message</small>
+            </div>
+            <div class="input-block">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <small>Error Message</small>
+            </div>
+            <div class="input-block">
+                <label for="confirmpwd">Confirm Password</label>
+                <input type="password" id="confirmpwd" placeholder="Enter password again">
+                <small>Error Message</small>
+            </div>
+            <button class="submitBtn" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./script.js"></script>
 </body>
 </html>
